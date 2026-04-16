@@ -17,7 +17,7 @@ renv::install('woolingxiang/SPHERE')
 renv::snapshot(type='all')
 ```
 #### dependency
-Seurat ≥ 5.3.3
+Seurat ≥ 4.0
 
 ---
 
