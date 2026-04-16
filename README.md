@@ -42,7 +42,7 @@ cellmarkers = list(malignant = c('PTPRZ1','SOX2','EGFR'),
                    BMDM = c('FPR3','ITGA4','TGFBI','KYNU','S100A11','IFITM2'), 
                    tnkcell = c('PTPRC','CD3D','CD3E','CD8A','CD4','KLRD1','NCAM1'))
 for(i in 1:length(dat)) dat[[i]] = AddModuleScore(object = dat[[i]], features = cellmarkers , name = names(cellmarkers), seed=666, nbin = 10)
-features = paste0(cellmarkers,1:length(cellmarkers))
+features = paste0(names(cellmarkers),1:length(cellmarkers))
 rs3 = spatial_vectorX(dat,target=features[1],features=features[-1])
 rs4 = spatial_vectorX(dat,target=features[1],features=c('VEGFA','PTPRC','CD68'))
 
