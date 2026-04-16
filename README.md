@@ -48,7 +48,7 @@ rs4 = spatial_vectorX(dat,target=features[1],features=c('VEGFA','PTPRC','CD68'))
 
 
 # visualization
-par(mfrowc(2,4))
+par(mfrow=c(2,4))
 spatial_vecPlot(rs2) # spatial vector plot
 spatial_magPlot(rs2) # spatial vector magnitude & projected score plot
 sa1 = spatial_adjust(dat1,feature='HIF1A',plot = T) # spatial map 
