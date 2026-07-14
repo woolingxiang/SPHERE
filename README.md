@@ -60,4 +60,4 @@ spatial_vecPlot(rs4) # spatial vector plot
 ```
 
 ### Citation
-Wu L, Wu G, Zhai Y, Ren C, Zhou H, Shi J, Liu X, Zhang Y, Huang B, Xia P, Wu W, Fan W, Li K, Zhang R, Yang C, Zhang J, Jiang T, Wang Q, Zhao Z. Dissection of spatial hypoxic and inflammatory ecosystem in glioblastoma. Cancer Lett. 2026 Jul 6;657:218718. doi: 10.1016/j.canlet.2026.218718. Epub ahead of print. PMID: 42409256.
+> Wu L, Wu G, Zhai Y, Ren C, Zhou H, Shi J, Liu X, Zhang Y, Huang B, Xia P, Wu W, Fan W, Li K, Zhang R, Yang C, Zhang J, Jiang T, Wang Q, Zhao Z. Dissection of spatial hypoxic and inflammatory ecosystem in glioblastoma. Cancer Lett. 2026 Jul 6;657:218718. doi: 10.1016/j.canlet.2026.218718. Epub ahead of print. PMID: 42409256.
